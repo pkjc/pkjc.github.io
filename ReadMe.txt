@@ -1,28 +1,59 @@
-Free Bootstrap Resume/CV Template for developers
 
-Theme name:
-=======================================================================
-Orbit
+TITLE: 
+Work - Responsive Free HTML5 template
 
-Theme version:
-=======================================================================
-v1.0
+AUTHOR:
+DESIGNED & DEVELOPED by FREEHTML5.co
+http://freehtml5.co/
 
-Release Date:
-=======================================================================
-29 Jan 2016
 
-Author: 
-=======================================================================
-Xiaoying Riley at 3rd Wave Media (http://themes.3rdwavemedia.com/)
+CREDITS:
 
-Contact:
-=======================================================================
-Web: http://themes.3rdwavemedia.com/
-Email: hello@3rdwavemedia.com
-Twitter: @3rdwave_themes
+Bootstrap
+http://getbootstrap.com/
 
-License: 
-=======================================================================
-This template is free under the Creative Commons Attribution 3.0 License.
-https://creativecommons.org/licenses/by/3.0/
+Pldme for Photos
+http://pldme.com/
+
+Unsplash for Photos
+http://unsplash.com/
+
+jQuery
+http://jquery.com/
+
+jQuery Easing
+http://gsgd.co.uk/sandbox/jquery/easing/
+
+Modernizr
+http://modernizr.com/
+
+Owl Carousel
+http://owlgraphic.com/owlcarousel/
+
+Magnific Popup
+http://dimsemenov.com/plugins/magnific-popup/
+
+Google Fonts
+https://www.google.com/fonts/
+
+Themify Icons
+http://themify.me/themify-icons
+
+Icomoon Icons
+https://icomoon.io/
+
+Easy Responsive Tabs
+Samson.Onna <Email : samson3d@gmail.com> 
+
+FastClick
+https://github.com/ftlabs/fastclick
+
+Google Map API
+https://developers.google.com/maps/?hl=en
+
+
+
+* Don't forget to share it with your friends. Thanks! :)
+
+
+
