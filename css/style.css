@@ -16,7 +16,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 }
 
 body {
-  font-family: monospace, monospace, sans-serif;
+  font-family: 'Source Code Pro', monospace, 'Source Code Pro', monospace, sans-serif;
   font-size: 16px;
   line-height: 26px;
   color: #424242;
@@ -76,13 +76,13 @@ figure.fh5co-with-caption figcaption {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin: 0 0 20px 0;
   padding: 0;
-  font-family: monospace, sans-serif;
+  font-family: 'Source Code Pro', monospace, sans-serif;
   font-weight: 400;
   color: #333;
 }
 
 h1, .h1 {
-  font-size: 32px;
+  font-size: 28px;
     line-height: 52px;
 }
 @media screen and (max-width: 768px) {
@@ -180,7 +180,7 @@ pre {
   padding: 1rem 0.8rem 1rem 1.2rem;
   color: #3f3b36;
   border: 1px solid #ebebeb !important;
-  font: lighter 1.2rem/2rem Monaco,'MonacoRegular',monospace;
+  font: lighter 1.2rem/2rem Monaco,'MonacoRegular','Source Code Pro', monospace;
   background: url(../images/pre.png) repeat 0 -0.9rem;
   background-size: 1px 4rem;
 }
@@ -736,7 +736,7 @@ pre {
 
 /* Buttons */
 .btn {
-  font-family: monospace, sans-serif;
+  font-family: 'Source Code Pro', monospace, sans-serif;
   border-bottom: none !important;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -947,7 +947,7 @@ pre {
 .fh5co-call-to-action .fh5co-call-to-action-text {
   font-size: 50px;
   line-height: 60px;
-  font-family: monospace, sans-serif;
+  font-family: 'Source Code Pro', monospace, sans-serif;
   text-transform: uppercase;
 }
 .fh5co-call-to-action .btn {
@@ -1151,7 +1151,7 @@ a > img.fh5co-align-center {
 }
 
 .resp-tabs-list li {
-  font-family: monospace, sans-serif;
+  font-family: 'Source Code Pro', monospace, sans-serif;
 }
 
 .resp-content-active, .resp-accordion-active {
@@ -1172,7 +1172,7 @@ a > img.fh5co-align-center {
 
 /* Pricing Tables */
 .fh5co-pricing-table-1 {
-  font-family: monospace, sans-serif;
+  font-family: 'Source Code Pro', monospace, sans-serif;
 }
 @media screen and (max-width: 992px) {
   .fh5co-pricing-table-1 .fh5co-pricing-table-item {
@@ -1248,7 +1248,7 @@ a > img.fh5co-align-center {
 }
 
 .fh5co-link {
-  font-family: monospace, sans-serif;
+  font-family: 'Source Code Pro', monospace, sans-serif;
 }
 .fh5co-link > i {
   margin-right: 5px;
