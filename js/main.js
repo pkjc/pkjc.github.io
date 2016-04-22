@@ -227,10 +227,10 @@
 	$(function(){
 		burgerMenu();
 		mobileFastClick();
-		responsiveTabs();
-		magnifPopup();
-		owlCrouselFeatureSlide();
-		testimonialCarousel();
+		//responsiveTabs();
+		//magnifPopup();
+		//owlCrouselFeatureSlide();
+		//testimonialCarousel();
 		sScrollTop();
 		wResize();
 		viewWorks();
