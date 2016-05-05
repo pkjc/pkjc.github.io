@@ -1,22 +1,16 @@
 
-TITLE: 
-Work - Responsive Free HTML5 template
+Personal website of Pankaj Chobharkar
 
 AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
-http://freehtml5.co/
-
+Pankaj Chobharkar
 
 CREDITS:
 
+Based on a theme by FREEHTML5.co
+http://freehtml5.co/
+
 Bootstrap
 http://getbootstrap.com/
-
-Pldme for Photos
-http://pldme.com/
-
-Unsplash for Photos
-http://unsplash.com/
 
 jQuery
 http://jquery.com/
@@ -52,8 +46,4 @@ Google Map API
 https://developers.google.com/maps/?hl=en
 
 
-
-* Don't forget to share it with your friends. Thanks! :)
-
-
-
+Feel free to use this for your own personal website :)
