@@ -1286,3 +1286,25 @@ a > img.fh5co-align-center {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{font-family: georgia, serif;}
+p {margin-bottom:15px}
+	
+#fh5co-footer .fh5co-footer-social li a {
+	padding: 0;
+}
+	
+@media screen and (max-width: 480px){
+	#fh5co-footer .fh5co-footer-social li {
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 45%;
+	}
+}
+.active {
+	color: #7b7b7b;
+	border-bottom: 2px solid #1d2dfd;
+}
+small, .small {
+	font-size: 95%;
+}
