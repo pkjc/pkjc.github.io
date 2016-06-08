@@ -18,7 +18,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.65;
   color: #424242;
   font-weight: 300;
 }
@@ -45,16 +45,14 @@ a {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   color: #1d2dfd;
-  border-bottom: 2px solid transparent;
 }
 a:hover, a:active, a:focus {
   color: #1d2dfd;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
   color: #7b7b7b;
-  border-bottom: 2px solid #1d2dfd;
 }
 
 figure.fh5co-with-caption {
@@ -137,7 +135,6 @@ h6, .h6 {
 
 ul, ol {
   padding-left: 15px;
-  line-height: 26px;
   margin-left: 15px;
 }
 ul ul, ul ol, ol ul, ol ol {
@@ -150,7 +147,6 @@ p, img {
 
 ul, ol {
   padding-left: 15px;
-  line-height: 24px;
 }
 ul ul, ul ol, ol ul, ol ol {
   padding-left: 25px;
@@ -271,7 +267,6 @@ pre {
 }
 #fh5co-main-nav ul > li > a:hover, #fh5co-main-nav ul > li > a:active, #fh5co-main-nav ul > li > a:focus {
   color: #7c7c7c;
-  border-bottom: 2px solid #1d2dfd;
 }
 #fh5co-main-nav .fh5co-nav-call-to-action {
   position: absolute;
@@ -1292,15 +1287,13 @@ body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{font-family: 'Poppins
 h1, .h1 {
     color: #6f6f6f;
 }
-
-p {margin-bottom:18px}
 	
 #fh5co-footer .fh5co-footer-social li a {
 	padding: 0;
 }
+
 .active {
-	color: #7b7b7b;
-	border-bottom: 2px solid #1d2dfd;
+	color: #1d2dfd !important;
 }
 small, .small {
 	font-size: 95%;
