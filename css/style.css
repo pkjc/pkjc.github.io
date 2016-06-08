@@ -16,7 +16,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 }
 
 body {
-  font-family: 'Source Code Pro', monospace, 'Source Code Pro', monospace, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 26px;
   color: #424242;
@@ -76,7 +76,7 @@ figure.fh5co-with-caption figcaption {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin: 0 0 20px 0;
   padding: 0;
-  font-family: 'Source Code Pro', monospace, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #333;
 }
@@ -1287,19 +1287,16 @@ a > img.fh5co-align-center {
 
 /*# sourceMappingURL=style.css.map */
 
-body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{font-family: georgia, serif;}
-p {margin-bottom:15px}
+body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{font-family: 'Poppins', sans-serif;}
+
+h1, .h1 {
+    color: #6f6f6f;
+}
+
+p {margin-bottom:18px}
 	
 #fh5co-footer .fh5co-footer-social li a {
 	padding: 0;
-}
-	
-@media screen and (max-width: 480px){
-	#fh5co-footer .fh5co-footer-social li {
-	display: inline-block;
-	margin-bottom: 10px;
-	width: 45%;
-	}
 }
 .active {
 	color: #7b7b7b;
@@ -1307,4 +1304,16 @@ p {margin-bottom:15px}
 }
 small, .small {
 	font-size: 95%;
+}
+@media screen and (min-width: 480px){
+	.container-fluid {
+		margin-left: 3em;
+	}
+}
+@media screen and (max-width: 480px){
+	#fh5co-footer .fh5co-footer-social li {
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 45%;
+	}
 }
