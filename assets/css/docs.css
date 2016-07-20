@@ -24,24 +24,38 @@ html {
     width: 100%;
     height: 55px;
     background-color: #f5f5f5;
-    padding: 19px 0;
+    padding: 13px 0;
 }
 
 /*----------------*/
 
+.btn-social-icon {
+    margin-bottom: 2px;
+}
+.btn-pinterest {
+    color: #fff;
+    background-color: #cb2027;
+    border-color: rgba(0,0,0,0.2);
+    font-size: 25px;
+    text-align: center !important;
+    padding-top: 3px !important;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
 .demo-title p {
 }
 p {
-    font-size: 20px;
-    line-height: 1.72222;
+    font-size: 18px;
+    line-height: 1.65;
     margin: 0 0 15px;
 }
 
-
+a{color:blue}
+a:hover, a:focus{color:blue;opacity:0.8; text-decoration:underline;}
 body {
-  font-family: Lato, "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 20px;
-    line-height: 1.42857143;
+  font-family: 'Source Serif Pro',serif;
+    font-size: 18px;
+    line-height: 1.65;
     color: #000;
     background-color: #fff;
     margin-bottom: 20px;
@@ -151,23 +165,24 @@ ol.linenums {
   width: 260px;
 }
 .demo-headline {
-    color: #1abc9c;
-    font: 300 40px/1.1 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+   color: blue;
+    font: 400 28px/1.2 Poppins, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     margin-bottom: 50px;
-    padding: 15px 0 17px 0;
+    padding: 17px 0 17px 0;
     text-align: right;
     word-wrap: break-word;
     margin-top: 2px;
-    width: 905px;
-    margin: 2px auto 25px auto;
+    width: 829px;
+    margin: 0px auto 25px auto;
     border-bottom: 1px solid #ddd;
     letter-spacing: -0.02em;
+	max-width:100%;
 
 }
 .demo-row {
     margin: 0 auto;
     padding: 0 20px 50px;
-    width: 940px;
+    width: 830px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
     margin-bottom: 25px;
@@ -222,7 +237,7 @@ ol.linenums {
 .demo-content {
     float: left;
     margin-left: 20px;
-    width: 630px;
+    width: 570px;
 }
 .demo-content.demo-content-article p {
   margin-bottom: 20px;
@@ -233,7 +248,6 @@ ol.linenums {
   padding-left:0;
 }
 .demo-content.demo-content-article li {
-  line-height: 35px;
     padding: 12px 0;
     border-top: 1px solid #ddd;
 }
@@ -254,10 +268,10 @@ ol.linenums {
 }
 .demo-title {
   float: left;
-    width: 240px;
+    width: 200px;
     font-weight: 700;
 	margin-top: 1px;
-    font-family: Montserrat;
+    font-family: Poppins;
 }
 .demo-title h1,
 .demo-title h2,
@@ -452,7 +466,6 @@ ol.linenums {
 }
 @media (max-width: 767px) {
   .demo-row {
-    margin-bottom: 0;
     margin-left: 0;
     padding-left: 0;
     padding-right: 0;
@@ -468,7 +481,6 @@ ol.linenums {
     width: auto;
   }
   .demo-headline {
-    font-size: 65px !important;
     text-align: left;
     padding-left: 15px;
     padding-right: 15px;
