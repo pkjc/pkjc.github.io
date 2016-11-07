@@ -1287,9 +1287,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{font-family: 'Poppins', san
 h1, .h1 {
     color: #6f6f6f;
 }
-body{
-	font-family: 'Lora', serif;
-}
+
 #fh5co-footer .fh5co-footer-social li a {
 	padding: 0;
 }
