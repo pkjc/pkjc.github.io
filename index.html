@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Personal website of Pankaj Chobharkar">
+    <meta name="author" content="Pankaj Chobharkar">
     <link rel="icon" href="logo.png">
 
     <title>Pankaj C.</title>
@@ -16,79 +16,8 @@
     crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <style>
-    @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700');
-    body{
-        font-family:'fira mono', monospace;
-        line-height: 1.57;
-    }
-    .myNav{
-        padding: .65rem;
-        background: #f7f7f7;
-        margin-bottom: 3rem;
-        max-width: 100%;
-        margin-right:0;
-        margin-left:0;
-    }
-    .resume .h6, h6 {
-        margin-top: .25rem;
-        text-transform: uppercase;
-    }
-    .tab-content{
-    }
-    .nav-link {
-        padding-top: .56rem;
-    }
-    .nav-item .active:after {
-        content: "\2193";
-        padding-left: .2rem;
-    }
-    .nav-item .active{
-        font-weight:bold;
-    }
-    img {
-        max-width: 100%;
-    }
-    @media screen and (max-width: 480px) {
-        .nav-link {
-            padding: .5rem .5rem;
-            font-size: .87rem;
-        }
-        .myNav{
-            margin-bottom: 2rem;
-            padding: .65rem 0;
-        }
-        .desc {
-            margin-top: 1rem;
-        }
-        .desc h4{
-            line-height: 1.35;
-        }
-        .navCol{
-            padding:0;
-        }
-    }
-
-    /* Sticky footer styles
-    -------------------------------------------------- */
-    html {
-        position: relative;
-        min-height: 100%;
-    }
-    body {
-        /* Margin bottom by footer height */
-        margin-bottom: 100px;
-    }
-    .footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        /* Set the fixed height of the footer here */
-        height: 60px;
-        line-height: 60px; /* Vertically center the text there */
-        background-color: #f5f5f5;
-    }
-    </style>
+    <link rel="stylesheet"
+    href="css/style.css">
 </head>
 <body>
     <div class="">
@@ -100,8 +29,8 @@
                 </a>
             </div>
 
-            <div class="col-md-auto col-sm-12 navCol">
-                <ul class="nav justify-content-center" id="myTab" role="tablist">
+            <div class="col-md-8 col-sm-12 navCol">
+                <ul class="nav nav-fill nav-justified justify-content-center" id="myTab" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-expanded="true">About</a>
                     </li>
@@ -134,10 +63,9 @@
             </div>
         </div>
 
-
         <footer class="footer">
             <div class="container">
-                <span class="text-muted">Place sticky footer content here.</span>
+                <span class="text-muted" style="font-size:.875rem">Built with Bootstrap and hosted on GitHub Pages.</span>
             </div>
         </footer>
     </div>
@@ -155,15 +83,14 @@
     crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-    function onDocumentReady(){
-        $("#about").load( "about.html" );
-        $("#projects").load( "projects.html" );
-        $("#resume").load( "resume.html" );
-        $("#blog").load( "blog.html" );
-        $("#contact").load( "contact.html" );
-    }
-    $(document).ready(onDocumentReady);
-
+        function loadPartials(){
+            $("#about").load( "partials/about.html" );
+            $("#projects").load( "partials/projects.html" );
+            $("#resume").load( "partials/resume.html" );
+            $("#blog").load( "partials/projects.html" );
+            $("#contact").load( "partials/contact.html" );
+        }
+        $(document).ready(loadPartials);
     </script>
 
 </body>
