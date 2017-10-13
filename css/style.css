@@ -9,16 +9,18 @@ body {
 }
 .myNav {
     border-bottom:1px solid #eee;
-    margin-bottom: 3rem;
     max-width: 100%;
     margin-right: 0;
     margin-left: 0;
+    background: #fff;
 }
 .resume .h6, h6 {
     margin-top: .25rem;
     text-transform: uppercase;
 }
-
+#myTabContent{
+    margin-top:90px;
+}
 .nav-link {
     padding: .75rem;
 }
@@ -61,8 +63,14 @@ html {
     .desc {
         margin-top: 1rem;
     }
+    #myTabContent{
+        margin-top:22%;
+    }
 }
 @media screen and (max-width: 480px) {
+    #myTabContent{
+        margin-top:26.5%;
+    }
     .navbar-brand {
         padding-top: 0.85rem;
         padding-bottom: 0.5rem;
@@ -74,7 +82,7 @@ html {
     }
     .myNav {
         margin-bottom: 2rem;
-    } 
+    }
     .desc h4 {
         line-height: 1.25;
     }
