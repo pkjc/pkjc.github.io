@@ -80,17 +80,13 @@ html {
     #myTabContent{
         /*margin-top:12%;*/
     }
-    .nav-item .active, .nav-item:hover {
-        box-shadow: 1px 4px 0px -2px rgba(0, 123, 255, 0.85);
-    }
+
 }
 @media screen and (max-width: 480px) {
     body {
         padding-top:110px;
     }
-    .nav-item .active, .nav-item:hover {
-        box-shadow: 1px 4px 0px -2px rgba(0, 123, 255, 0.85);
-    }
+    
     #myTabContent{
         /*margin-top:26.5%;*/
     }
