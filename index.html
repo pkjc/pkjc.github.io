@@ -85,17 +85,23 @@
     }
     function tabSwipesOnMobile(){
         var hammertime = new Hammer(myTabContent);
+        //RIGHT
         hammertime.on('swiperight', function(ev) {
             console.log("R");
-            var $tab = $('#myTab .active').prev();
-            if ($tab.length > 0)
-                $tab.find('a').tab('show');
+
+            var allTabLinks = $('#myTab .active').parent().prev().find('a').tab('show');
+
+            console.log(allTabLinks);
+
         });
+        //LEFT
         hammertime.on('swipeleft', function(ev) {
             console.log("L");
-            var $tab = $('#myTab .active').next();
-            if ($tab.length > 0)
-                $tab.find('a').tab('show');
+
+            var allTabLinks = $('#myTab .active').parent().next().find('a').tab('show');
+
+            console.log(allTabLinks);
+
         });
     }
     $(function() {
