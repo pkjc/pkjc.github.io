@@ -17,8 +17,8 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="">
+<body id="body">
+    <div id="content">
         <div class="row myNav fixed-top">
             <div class="col-md-auto col-sm-12">
                 <a class="navbar-brand" href="#" onClick="window.location.reload()">
@@ -84,13 +84,13 @@
         $("#contact").load( "partials/contact.html" );
     }
     function tabSwipesOnMobile(){
-        var hammertime = new Hammer(myTabContent);
+        var hammertime = new Hammer(body);
         //RIGHT
         hammertime.on('swiperight', function(ev) {
             console.log("R");
 
             var allTabLinks = $('#myTab .active').parent().prev().find('a').tab('show');
-
+            setTimeout(function(){window.scrollTo(0,0)}, 150);
             console.log(allTabLinks);
 
         });
@@ -99,7 +99,7 @@
             console.log("L");
 
             var allTabLinks = $('#myTab .active').parent().next().find('a').tab('show');
-
+            setTimeout(function(){window.scrollTo(0,0)}, 150);
             console.log(allTabLinks);
 
         });
