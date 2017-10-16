@@ -63,7 +63,7 @@
 
         <footer class="footer">
             <div class="container">
-                <span class="text-muted" style="font-size:.85rem">Built with Bootstrap . Hosted on GitHub Pages</span>
+                <span class="text-muted" style="font-size:.8rem">Built with Bootstrap & Hosted on GitHub Pages</span>
             </div>
         </footer>
     </div>
@@ -74,47 +74,7 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous">
     </script>
-
-    <script>
-    function loadPartials(){
-        $("#about").load( "partials/about.html" );
-        $("#projects").load( "partials/projects.html" );
-        $("#resume").load( "partials/resume.html" );
-        $("#blog").load( "partials/projects.html" );
-        $("#contact").load( "partials/contact.html" );
-    }
-    function tabSwipesOnMobile(){
-        var hammertime = new Hammer(body);
-        //RIGHT
-        hammertime.on('swiperight', function(ev) {
-            console.log("R");
-
-            var allTabLinks = $('#myTab .active').parent().prev().find('a').tab('show');
-            setTimeout(function(){window.scrollTo(0,0)}, 150);
-            console.log(allTabLinks);
-
-        });
-        //LEFT
-        hammertime.on('swipeleft', function(ev) {
-            console.log("L");
-
-            var allTabLinks = $('#myTab .active').parent().next().find('a').tab('show');
-            setTimeout(function(){window.scrollTo(0,0)}, 150);
-            console.log(allTabLinks);
-
-        });
-    }
-    $(function() {
-        $('#myTab a').click(function () {
-            setTimeout(function(){window.scrollTo(0,0)}, 150);
-        });
-
-    });
-    $(document).ready(function(){
-        loadPartials();
-        tabSwipesOnMobile();
-    });
-    </script>
+    <script src="js/main.js"></script>
 
 </body>
 </html>

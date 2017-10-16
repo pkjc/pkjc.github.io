@@ -4,7 +4,8 @@ body {
     line-height: 1.57;
     margin-bottom: 0;
     position: relative;
-    min-height: 87.5vh
+    min-height: 99.5vh;
+    padding-top: 80px;
 }
 div#content {
     padding-bottom: 100px;
@@ -24,7 +25,7 @@ div#content {
     text-transform: uppercase;
 }
 #myTabContent{
-    margin-top:90px;
+    /*margin-top:90px;*/
 }
 .nav-link {
     padding: .75rem;
@@ -70,16 +71,28 @@ html {
     line-height: 1.225;
 }
 @media screen and (max-width: 768px) {
+    body {
+        padding-top:115px;
+    }
     .desc {
         margin-top: 1rem;
     }
     #myTabContent{
-        margin-top:22%;
+        /*margin-top:12%;*/
+    }
+    .nav-item .active, .nav-item:hover {
+        box-shadow: 1px 4px 0px -2px rgba(0, 123, 255, 0.85);
     }
 }
 @media screen and (max-width: 480px) {
+    body {
+        padding-top:110px;
+    }
+    .nav-item .active, .nav-item:hover {
+        box-shadow: 1px 4px 0px -2px rgba(0, 123, 255, 0.85);
+    }
     #myTabContent{
-        margin-top:26.5%;
+        /*margin-top:26.5%;*/
     }
     .navbar-brand {
         padding-top: 0.85rem;
