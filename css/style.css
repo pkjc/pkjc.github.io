@@ -44,7 +44,7 @@ div#content {
     #padding-left: .2rem;
 }
 .nav-item .active, .nav-item:hover {
-    box-shadow: 0 2px 0px rgba(0, 123, 255, 0.85);
+    box-shadow: 0 8px 6px -6px black;
 }
 .nav-item .active:hover{
     border:none;
