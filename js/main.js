@@ -33,6 +33,12 @@ $(function() {
 
 });
 $(document).ready(function(){
+    $.getJSON('http://www.whateverorigin.org/get?url=' + encodeURIComponent('https://www.videshi.com/michigan/events') + '&callback=?', function(data){
+        var eventsArr = $(data.contents).find('.article-listing').find('.img-responsive');
+        $.each(eventsArr, function(index, value){
+            console.log(value);
+        });
+    });
     loadPartials();
     tabSwipesOnMobile();
 });
