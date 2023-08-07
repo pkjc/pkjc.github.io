@@ -45,10 +45,8 @@ export default function App() {
           <Card delay={"fade-in"}>
             <Project
               name={"Bored"}
-              link={"#"}
-              imgSrc={
-                "https://images.ctfassets.net/lzny33ho1g45/5LqY8rOVmCiN8TrZDScqAB/e932b39ff7ebdeb6c1bf4f35e7eed58e/full-page-screenshots-in-chrome-02-developer-menu-command.png"
-              }
+              link={"https://bored.pankaj.co"}
+              imgSrc={"./bored.png"}
             />
           </Card>
           <Card delay={"fade-in"}>
@@ -127,7 +125,7 @@ function Socials({ s }) {
   return (
     <article className={`fade-in grid grid-cols-2 gap-4 text-green-200 ${s}`}>
       <a
-        href="https://instagram.com/shotstoriesbypankaj"
+        href="https://instagram.com/_pankajc"
         target="_blank"
         className="py-8 sm:py-4 shadow-sm rounded-3xl border border-gray-700 bg-[#0D1117] flex items-center justify-center"
       >
